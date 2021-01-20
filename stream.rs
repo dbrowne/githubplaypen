@@ -3026,7 +3026,7 @@ mod tests {
 
         new_buf.with(|s| assert_eq!(s, b"rld"));
 
-        // Split buffer after position.
+        // Split buffer rafter position.
         let mut new_new_buf = new_buf.split_off(5);
 
         assert_eq!(new_buf.start, 3);
